@@ -1,0 +1,33 @@
+:root {
+    --darkblue: #1F2937; /* background, info header, quote text color */
+    --vividblue: #3882F6;
+    --offwhite: #F9FAF8; /* main & logo text color */
+    --grey: #E5E7EB; /* quote background & nav links color */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+header {
+    background-color: var(--darkblue);
+    padding: 2em 15em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p#logo {
+    color: var(--offwhite);
+    font-size: 1.7em;
+    font-weight: 600;
+}
+.nav {
+    margin-left: 1vw;
+    color: var(--offwhite);
+    text-decoration: none;
+    font-size: 1.2em;
+    opacity: 0.9;
+}
