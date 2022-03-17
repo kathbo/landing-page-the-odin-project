@@ -3,18 +3,21 @@
     --vividblue: #3882F6;
     --offwhite: #F9FAF8; /* main & logo text color */
     --grey: #E5E7EB; /* quote background & nav links color */
+    --darkgrey: #6d747d;
+    --width: 15em;
 }
 * {
     margin: 0;
     padding: 0;
 }
+
 html {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
 }
 header {
     background-color: var(--darkblue);
-    padding: 2em 15em;
+    padding: 2em var(--width);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,6 +31,51 @@ p#logo {
     margin-left: 1vw;
     color: var(--offwhite);
     text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+main {
+    background-color: var(--darkblue);
+    padding: 4em var(--width) 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section#mainSection {
+    color: var(--offwhite);
+    
+    
+}
+h1#h1main {
+    font-size: 3em;
+}
+
+p#pmain {
     font-size: 1.2em;
     opacity: 0.9;
+}
+button.buttonmain {
+    margin-top: 1em;
+    padding: 0.8em 3em;
+    background-color: var(--vividblue);
+    border-radius: 10px;
+    border: none;
+}
+a.buttonmain {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: var(--offwhite);
+    text-decoration: none;
+}
+aside {
+    background-color: var(--darkgrey);
+    height: 18vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#paside {
+    color: var(--grey);
+    font-size: 1.1em;
 }
