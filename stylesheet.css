@@ -4,7 +4,8 @@
     --offwhite: #F9FAF8; /* main & logo text color */
     --grey: #E5E7EB; /* quote background & nav links color */
     --darkgrey: #6d747d;
-    --width: 15em;
+    --width: 20em;
+    --sqsize: 200px;
 }
 *, *:before, *:after {
     box-sizing: border-box;
@@ -87,4 +88,32 @@ aside {
 #paside {
     color: var(--grey);
     font-size: 1.1em;
+}
+
+/* rectangles */
+
+section#rectangleSection {
+    margin: 3rem 20em 4rem;
+}
+h2#h2sq {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.3em;
+}
+div#squares {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+div.square {
+    border: 5px solid var(--vividblue);
+    border-radius: 20px;
+    width: var(--sqsize);
+    height: var(--sqsize);
+    margin-bottom: 0.8em;
+}
+p.underSquares {
+    line-height: 1.4em;
+    max-width: var(--sqsize);
+    text-align: center;
 }
