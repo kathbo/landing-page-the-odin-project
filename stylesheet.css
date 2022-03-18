@@ -37,6 +37,10 @@ p#logo {
     font-size: 1.1em;
     opacity: 0.9;
 }
+.nav:hover {
+    opacity: 1;
+    transition: all 0.3s;
+}
 
 /* main */
 
@@ -51,7 +55,6 @@ section#mainSection {
     color: var(--offwhite);
     width: 45%;
     margin-right: 5%;
-    
 }
 h1#h1main {
     font-size: 3em;
@@ -66,10 +69,21 @@ p#pmain {
     margin: 0.5em 0;
 }
 button.buttonmain {
-    padding: 0.8em 3em;
+    padding: 0.6em 2.2em;
     background-color: var(--vividblue);
     border-radius: 10px;
     border: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--offwhite);
+    text-decoration: none;
+}
+
+button.buttonmain:hover {
+    transition: all 0.3s;
+    background-color: var(--offwhite);
+    color: var(--vividblue);
+    
 }
 a.buttonmain {
     font-size: 1.4em;
@@ -77,6 +91,7 @@ a.buttonmain {
     color: var(--offwhite);
     text-decoration: none;
 }
+
 aside {
     background-color: var(--darkgrey);
     height: 27vh;
@@ -150,7 +165,7 @@ div#c2a-box {
     align-items: center;
 }
 h2#c2a-h2 {
-    font-size: 1.8em;
+    font-size: 1.7em;
     font-weight: 600;
     line-height: 1.4em;
 }
@@ -160,16 +175,21 @@ p#c2a-p {
     opacity: 0.9;
 }
 button#c2a-button {
-    padding: 0.5em 3em;
+    padding: 0.4em 2em;
     border-radius: 10px;
     background-color: var(--vividblue);
     border: 3px solid var(--offwhite);
-}
-a#c2a-a {
     text-decoration: none;
     color: var(--offwhite);
-    font-size: 1.6em;
+    font-size: 1.25em;
     font-weight: 600;
+}
+button#c2a-button:hover {
+    color: var(--vividblue);
+    border-color: var(--offwhite);
+    background-color: var(--offwhite);
+    transition: all 0.3s;
+
 }
 
 /* footer */
@@ -186,5 +206,10 @@ p#footer {
 }
 a#footer-a {
     text-decoration: none;
-    color: #3882F6;
+    font-weight: 500;
+    color: #FFA366;   
+}
+a#footer-a:hover {
+    color: var(--vividblue);
+    transition: all 0.5s;
 }
