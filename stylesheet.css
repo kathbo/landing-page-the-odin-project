@@ -171,3 +171,20 @@ a#c2a-a {
     font-size: 1.6em;
     font-weight: 600;
 }
+
+/* footer */
+
+footer{
+    background-color: var(--darkblue);
+    padding: 2em;
+}
+p#footer {
+    color: var(--offwhite);
+    font-size: 1.2em;
+    font-weight: 200;
+    text-align: center;
+}
+a#footer-a {
+    text-decoration: none;
+    color: #3882F6;
+}
