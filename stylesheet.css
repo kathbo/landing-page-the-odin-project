@@ -136,3 +136,38 @@ p#quoteAuthor {
     font-weight: 600;
     font-size: 1.5em;
 }
+
+/* call 2 action */
+
+div#c2a-box {
+    margin: 6em var(--width);
+    padding: 4em 10em;
+    background-color: var(--vividblue);
+    color: var(--offwhite);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h2#c2a-h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+p#c2a-p {
+    font-size: 1.2em;
+    font-weight: 300;
+    opacity: 0.9;
+}
+button#c2a-button {
+    padding: 0.5em 3em;
+    border-radius: 10px;
+    background-color: var(--vividblue);
+    border: 3px solid var(--offwhite);
+}
+a#c2a-a {
+    text-decoration: none;
+    color: var(--offwhite);
+    font-size: 1.6em;
+    font-weight: 600;
+}
