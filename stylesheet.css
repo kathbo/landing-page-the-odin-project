@@ -6,15 +6,17 @@
     --darkgrey: #6d747d;
     --width: 15em;
 }
-* {
-    margin: 0;
-    padding: 0;
+*, *:before, *:after {
+    box-sizing: border-box;
 }
-
 html {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
 }
+
+/* */
+/*header */
+
 header {
     background-color: var(--darkblue);
     padding: 2em var(--width);
@@ -34,6 +36,9 @@ p#logo {
     font-size: 1.1em;
     opacity: 0.9;
 }
+
+/* main */
+
 main {
     background-color: var(--darkblue);
     padding: 4em var(--width) 6em;
@@ -43,19 +48,23 @@ main {
 }
 section#mainSection {
     color: var(--offwhite);
-    
+    width: 45%;
+    margin-right: 5%;
     
 }
 h1#h1main {
     font-size: 3em;
+    line-height: 1.2em;
 }
 
 p#pmain {
     font-size: 1.2em;
+    font-weight: 300;
     opacity: 0.9;
+    line-height: 1.2em;
+    margin: 0.5em 0;
 }
 button.buttonmain {
-    margin-top: 1em;
     padding: 0.8em 3em;
     background-color: var(--vividblue);
     border-radius: 10px;
@@ -69,8 +78,8 @@ a.buttonmain {
 }
 aside {
     background-color: var(--darkgrey);
-    height: 18vh;
-    width: 50vw;
+    height: 27vh;
+    width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
