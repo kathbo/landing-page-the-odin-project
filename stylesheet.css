@@ -117,3 +117,22 @@ p.underSquares {
     max-width: var(--sqsize);
     text-align: center;
 }
+
+/* quote */
+
+section#quoteSection {
+    background-color: var(--grey);
+    padding: 8rem 30em;
+}
+p#quote {
+    font-style: italic;
+    font-size: 2.5em;
+    font-weight: 200;
+    line-height: 1.1em;
+    margin-bottom: 0.4em;
+}
+p#quoteAuthor {
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.5em;
+}
