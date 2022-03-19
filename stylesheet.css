@@ -6,6 +6,7 @@
     --darkgrey: #6d747d;
     --width: 20em;
     --sqsize: 200px;
+    --with1900: 25em;
 }
 *, *:before, *:after {
     box-sizing: border-box;
@@ -213,3 +214,18 @@ a#footer-a:hover {
     color: var(--vividblue);
     transition: all 0.5s;
 }
+
+/* MEDIA */
+
+@media (min-width: 1900px) {
+    main {
+        padding: 8em var(--with1900) 10em;
+    }
+    header {
+        padding-left: var(--with1900);
+        padding-right: var(--with1900);
+    }
+    div#c2a-box {
+        margin-left: var(--with1900);
+        margin-right: var(--with1900);
+    }
