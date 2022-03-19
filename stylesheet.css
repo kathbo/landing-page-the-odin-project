@@ -67,7 +67,7 @@ p#pmain {
     font-weight: 300;
     opacity: 0.9;
     line-height: 1.2em;
-    margin: 0.5em 0;
+    margin: 0.5em 0 0.9em;
 }
 button.buttonmain {
     padding: 0.6em 2.2em;
@@ -131,6 +131,7 @@ div.square {
 p.underSquares {
     line-height: 1.4em;
     max-width: var(--sqsize);
+    margin-bottom: 1em;
     text-align: center;
 }
 
@@ -172,15 +173,16 @@ h2#c2a-h2 {
 }
 p#c2a-p {
     font-size: 1.2em;
+    line-height: 1.2em;
     font-weight: 300;
-    opacity: 0.9;
+    opacity: 0.8;
+    width: 90%
 }
 button#c2a-button {
     padding: 0.4em 2em;
     border-radius: 10px;
     background-color: var(--vividblue);
     border: 3px solid var(--offwhite);
-    text-decoration: none;
     color: var(--offwhite);
     font-size: 1.25em;
     font-weight: 600;
@@ -229,3 +231,89 @@ a#footer-a:hover {
         margin-left: var(--with1900);
         margin-right: var(--with1900);
     }
+}
+@media (max-width: 1550px) {
+    p#logo, h2#c2a-h2 {
+        font-size: 1.5em;
+    }
+    .nav, button.buttonmain, #paside {
+        font-size: 0.9em;
+    }
+    h1#h1main {
+        font-size: 2.64em;
+    }
+    p#pmain, p#c2a-p, p#footer {
+        font-size: 1.05em;
+    }
+    h2#h2sq {
+        font-size: 2.02em;
+    }
+    div.square {
+        border-width: 4.4px;
+        width: 176px;
+        height: 176px;
+    }
+    p.underSquares {
+        max-width: 176px;
+    }
+    section#quoteSection {
+        padding: 6rem 25em;
+    }
+    p#quote {
+        font-size: 2.2em;
+    }
+    p#quoteAuthor {
+        font-size: 1.3em;
+    }
+    div#c2a-box {
+        padding: 3em 5em;
+    }
+    }
+    button#c2a-button {
+        font-size: 0.9em;
+        border-width: 2px;
+    }
+}
+@media (max-width: 450px) {
+    p#logo, h2#c2a-h2 {
+        font-size: 1.5em;
+    }
+    .nav, button.buttonmain, #paside {
+        font-size: 0.9em;
+    }
+    h1#h1main {
+        font-size: 2.64em;
+    }
+    p#pmain, p#c2a-p, p#footer {
+        font-size: 1.05em;
+    }
+    h2#h2sq {
+        font-size: 2.02em;
+    }
+    div.square {
+        border-width: 4.4px;
+        width: 176px;
+        height: 176px;
+    }
+    p.underSquares {
+        max-width: 176px;
+    }
+    section#quoteSection {
+        padding: 6rem 25em;
+    }
+    p#quote {
+        font-size: 2.2em;
+    }
+    p#quoteAuthor {
+        font-size: 1.3em;
+    }
+    div#c2a-box {
+        padding: 3em 5em;
+    }
+    }
+    button#c2a-button {
+        font-size: 0.9em;
+        border-width: 2px;
+    }
+}
+
