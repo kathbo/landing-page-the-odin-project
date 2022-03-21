@@ -13,7 +13,6 @@ html {
     height: 100vh;
 }
 
-/* */
 /*header */
 
 header {
@@ -21,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5em;
 }
 p#logo {
     color: var(--offwhite);
@@ -29,7 +29,9 @@ p#logo {
 .nav {
     color: var(--offwhite);
     text-decoration: none;
-    opacity: 0.9;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
 }
 .nav:hover {
     opacity: 1;
@@ -43,18 +45,21 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 2em 0.5em;
+    flex-direction: column-reverse;
 }
 section#mainSection {
     color: var(--offwhite);
 }
 h1#h1main {
-    
+    font-size: clamp(1.3rem, 2.5vw, 2rem); 
 }
 
 p#pmain {
     font-weight: 300;
     opacity: 0.9;
     line-height: 1.2em;
+    padding: 0.5em 0;
 }
 button.buttonmain {
     background-color: var(--vividblue);
@@ -63,6 +68,9 @@ button.buttonmain {
     font-weight: 600;
     color: var(--offwhite);
     text-decoration: none;
+    padding: 0.5em 3em;
+    display: block;
+    margin: auto;
 }
 
 button.buttonmain:hover {
@@ -82,9 +90,13 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 8em;
+    width: 100vw;
+    margin-bottom: 1em;
 }
 #paside {
     color: var(--grey);
+    font-size: clamp(0.8em, 2.5vw, 2em);
 }
 
 /* rectangles */
