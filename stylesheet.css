@@ -45,7 +45,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2em 0.5em;
+    padding: 1.5em 0.5em;
     flex-direction: column-reverse;
 }
 section#mainSection {
