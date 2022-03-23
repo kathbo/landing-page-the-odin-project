@@ -89,7 +89,7 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 30vh;
+    min-height: 10em;
     width: 100vw;
     margin-bottom: 1em;
 }
@@ -105,8 +105,8 @@ section#rectangleSection {
 }
 h2#h2sq {
     text-align: center;
-    margin-bottom: 1em;
-    font-size: clamp(1.4rem, 2.3vw, 1.7rem); 
+    margin-bottom: 1.5em;
+    font-size: clamp(1.3rem, 3vw, 1.9rem); 
 }
 div#squares {
     display: flex;
@@ -163,7 +163,7 @@ div#c2a-box {
 h2#c2a-h2 {
     font-weight: 600;
     line-height: 1.4em;
-    font-size: clamp(1.1em, 2vw, 1.3em);
+    font-size: clamp(1em, 2.2vw, 1.3em);
 }
 p#c2a-p {
     line-height: 1.2em;
@@ -286,14 +286,17 @@ a#footer-a:hover {
     main {
         padding: 6em 8em;
     }
+    aside {
+        min-height: 15em;
+    }
     section#rectangleSection {
-        padding: 3em 10em;
+        padding: 4em 10em;
     }
     section#quoteSection {
-        padding: 5em 20em
+        padding: 6em 20em
     }
     div#c2a-box {
-        margin: 3em 8em;
+        margin: 5em 8em;
         padding: 2.75em 5em;
     }
     footer {
@@ -313,16 +316,17 @@ a#footer-a:hover {
         padding: 7em 12em;
     }
     aside {
-        width: 90vw;
+        width: 85vw;
+        min-height: 18em;
     }
     section#rectangleSection {
-        padding: 3em 20em;
+        padding: 4em 20em;
     }
     section#quoteSection {
-        padding: 5em 25em
+        padding: 7em 25em
     }
     div#c2a-box {
-        margin: 5em 12em;
+        margin: 7em 12em;
         padding: 3em 8em;
     }
 }
