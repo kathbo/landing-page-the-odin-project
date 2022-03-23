@@ -179,7 +179,8 @@ button#c2a-button {
     font-size: clamp(0.8em, 1.4vw, 1em);
     border: 2px solid var(--offwhite);
     padding: 0.5em;
-    margin-left: 0.5em
+    margin-left: 0.5em;
+    white-space: nowrap;
 }
 
 button#c2a-button:hover {
