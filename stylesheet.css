@@ -27,11 +27,14 @@ p#logo {
     font-weight: 600;
     font-size: 1.2em;
 }
+nav {
+    display: flex;
+    flex-direction: column;
+}
 .nav {
     color: var(--offwhite);
     text-decoration: none;
     opacity: 0.7;
-    display: flex;
     font-size: 0.9em;
 }
 .nav:hover {
@@ -221,14 +224,23 @@ a#footer-a:hover {
 }
 
 @media (min-width: 650px) {
+    nav {
+        flex-direction: row;
+    }
     .nav {
-        display:inline
+        margin-left: 1em;
     }
     main {
         flex-direction: row;
     }
+    button.buttonmain {
+        margin: 0;
+    }
     aside {
         margin-left: 2em;
         margin-bottom: 0;
+    }
+    p#paside {
+        text-align: center;
     }
 }
