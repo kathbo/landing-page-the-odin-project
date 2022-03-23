@@ -25,7 +25,7 @@ header {
 p#logo {
     color: var(--offwhite);
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: clamp(1.1em, 2vw, 1.4em);
 }
 nav {
     display: flex;
@@ -35,7 +35,7 @@ nav {
     color: var(--offwhite);
     text-decoration: none;
     opacity: 0.7;
-    font-size: 0.9em;
+    font-size: clamp(0.9em, 1.5vw, 1em);
 }
 .nav:hover {
     opacity: 1;
@@ -56,7 +56,7 @@ section#mainSection {
     color: var(--offwhite);
 }
 h1#h1main {
-    font-size: clamp(1.3rem, 2.5vw, 2rem); 
+    font-size: clamp(1.5em, 3vw, 2.3em); 
 }
 
 p#pmain {
@@ -75,13 +75,13 @@ button.buttonmain {
     padding: 0.5em 3em;
     display: block;
     margin: auto;
+    font-size: 0.9em;
 }
 
 button.buttonmain:hover {
     transition: all 0.3s;
     background-color: var(--offwhite);
     color: var(--vividblue);
-    
 }
 
 aside {
@@ -89,13 +89,13 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 8em;
+    min-height: 30vh;
     width: 100vw;
     margin-bottom: 1em;
 }
 #paside {
     color: var(--grey);
-    font-size: clamp(0.8em, 2.5vw, 1.1em);
+    font-size: clamp(0.8em, 1vw, 1em);
 }
 
 /* rectangles */
@@ -217,7 +217,6 @@ a#footer-a:hover {
         padding: 1.5em 1em;
     }
 }
-
 @media (min-width: 650px) {
     header {
         padding: 1em 1.5em 0;
@@ -302,6 +301,12 @@ a#footer-a:hover {
     }
     main {
         padding: 7em 12em;
+    }
+    p#pmain {
+        padding: 0.7em 0;
+    }
+    aside {
+        width: 90vw;
     }
     section#rectangleSection {
         padding: 3em 10em;
