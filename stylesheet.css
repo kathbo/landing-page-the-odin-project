@@ -145,7 +145,7 @@ p#quoteAuthor {
     margin-top: 0.5em;
     text-align: right;
     font-weight: 500;
-    font-size: clamp(0.9em, 1.8vw, 1.5em);
+    font-size: clamp(0.9em, 1.8vw, 1.3em);
 }
 
 /* call 2 action */
@@ -157,8 +157,8 @@ div#c2a-box {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1em;
-    padding: 1em 0.5em;
+    margin: 2em 1em;
+    padding: 1.5em 1em;
 }
 h2#c2a-h2 {
     font-weight: 600;
@@ -172,12 +172,12 @@ p#c2a-p {
     font-size: clamp(0.9em, 1.6vw, 1.1em);
 }
 button#c2a-button {
-    border-radius: 10px;
+    border-radius: 6px;
     background-color: var(--vividblue);
     color: var(--offwhite);
     font-weight: 600;
     font-size: clamp(0.8em, 1.4vw, 1em);
-    border: 2px solid var(--offwhite);
+    border: 1.5px solid var(--offwhite);
     padding: 0.5em;
     margin-left: 0.5em;
     white-space: nowrap;
@@ -218,8 +218,8 @@ a#footer-a:hover {
         padding: 2em 0.5em;
     }
     div#c2a-box {
-        margin: 2em 1em;
-        padding: 1.5em 1em;
+        margin: 2.5em 1.2em;
+        padding: 1.5em;
     }
 }
 @media (min-width: 650px) {
@@ -254,8 +254,8 @@ a#footer-a:hover {
         padding: 3em 4em
     }
     div#c2a-box {
-        margin: 2em 1.5em;
-        padding: 1.5em 3em;
+        margin: 3em 2em;
+        padding: 1.5em 2.5em;
     }
     button#c2a-button {
         padding:  0.5em 1em;
