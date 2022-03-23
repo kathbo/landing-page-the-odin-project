@@ -153,7 +153,7 @@ p#quoteAuthor {
 div#c2a-box {
     background-color: var(--vividblue);
     color: var(--offwhite);
-    border-radius: 10px;
+    border-radius: 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -255,5 +255,62 @@ a#footer-a:hover {
     }
     button#c2a-button {
         padding:  0.5em 1em;
+    }
+}
+@media (min-width: 800px) {
+    header {
+        padding: 1em 4em 0;
+    }
+    main {
+        padding: 4em 4em;
+    }
+    section#rectangleSection {
+        padding: 2em 5em;
+    }
+    section#quoteSection {
+        padding: 4em 8em
+    }
+    div#c2a-box {
+        margin: 3em 4em;
+        padding: 2em 4em;
+    }
+}
+@media (min-width: 1000px) {
+    header {
+        padding: 1em 8em 0;
+    }
+    main {
+        padding: 6em 8em;
+    }
+    section#rectangleSection {
+        padding: 3em 10em;
+    }
+    section#quoteSection {
+        padding: 5em 14em
+    }
+    div#c2a-box {
+        margin: 3em 8em;
+        padding: 2.5em 5em;
+    }
+    footer {
+        padding: 1.5em 0;
+    }
+}
+@media (min-width: 1400px) {
+    header {
+        padding: 1em 12em 0;
+    }
+    main {
+        padding: 7em 12em;
+    }
+    section#rectangleSection {
+        padding: 3em 10em;
+    }
+    section#quoteSection {
+        padding: 5em 22em
+    }
+    div#c2a-box {
+        margin: 5em 12em;
+        padding: 2.5em 5em;
     }
 }
