@@ -96,6 +96,7 @@ aside {
 #paside {
     color: var(--grey);
     font-size: clamp(0.8em, 1vw, 1em);
+    opacity: 0.7;
 }
 
 /* rectangles */
@@ -328,6 +329,79 @@ a#footer-a:hover {
     div#c2a-box {
         margin: 7em 12em;
         padding: 3em 8em;
+    }
+}
+@media (min-width: 2000px) {
+    header {
+        padding: 2em 24em 0;
+    }
+    p#logo {
+        font-size: 1.9em;
+    }
+    nav {
+        font-size: 1.4em;
+    }
+    main {
+        padding: 7em 24em;
+    }
+    h1#h1main {
+        font-size: 3.2em;
+    }
+    p#pmain {
+        font-size: 1.6em;
+    }
+    button#buttonmain {
+        font-size: 1.4em;
+    }
+    aside {
+        width: 70vw;
+        font-size: 1.3em;
+    }
+    #paside {
+        font-size: 1.2em;
+    }
+    section#rectangleSection {
+        padding: 5em 40em;
+    }
+    h2#h2sq {
+        font-size: 2.5em;
+    }
+    div.square {
+        border-width: 5px;
+        min-width: 14em;
+        min-height: 14em;
+    }
+    p.underSquares {
+        font-size: 1.3em;
+    }
+    section#quoteSection {
+        padding: 10em 50em;
+    }
+    p#quote {
+        font-size: 3em;
+    }
+    p#quoteAuthor {
+        font-size: 1.8em;
+    }
+    div#c2a-box {
+        margin: 7em 24em;
+    }
+    h2#c2a-h2 {
+        font-size: 2em;
+    }
+    p#c2a-p {
+        font-size: 1.4em;
+    }
+    button#c2a-button {
+        font-size: 1.3em;
+        border-width: 2px;
+    }
+    footer {
+        padding: 2.5em 0;
+    }
+    p#footer {
+        font-size: 1.4em;
+
     }
 }
 
